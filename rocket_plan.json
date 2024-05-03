@@ -1,0 +1,45 @@
+{
+  "account": {
+    "user": "010400006666",
+    "pwd": ""
+  },
+  "hid": "15ceb0a9e6d039ea8bfc3aa1d5506d01",
+  "api_key":"dGzFAzSfU1669788833945TFetZ3LdNK",
+    "robot_api": {
+    "info":{"secret": "56c31174-00b8-4158-a60a-2db23e0a1e4f"},
+    "waring": {"secret": "56c31174-00b8-4158-a60a-2db23e0a1e4f"},
+    "news": {"secret": "56c31174-00b8-4158-a60a-2db23e0a1e4f"}
+    },
+  "strategy_list":{
+    "非策略选股": {"strategy": "非策略选股",
+                  "strategy_type": "选股",
+                   "strategy_weight": 0,
+                   "cap_count": 1,
+                   "hold_plan": 5,
+                   "select_count": 3,
+                   "stock_weight": ["equal_weight",false],
+                   "buy": ["base_buy", 0.02],
+                   "sell": ["base_sell"],
+                   "risk": [false]},
+    "资金流事件策略": {"strategy": "资金流事件策略",
+                  "strategy_type": "事件",
+                        "strategy_weight": 0.6,
+                        "cap_count": 2,
+                        "hold_plan": 2,
+                        "select_count": 3,
+                        "stock_weight": ["equal_weight"],
+                        "buy": ["base_buy", 0.02],
+                        "sell": ["base_sell","14:54:30"],
+                        "risk": [false]},
+    "伽利略选股策略": {"strategy": "伽利略选股策略",
+                  "strategy_type": "选股",
+                   "strategy_weight": 0.4,
+                   "cap_count": 1,
+                   "hold_plan": ["W", 0],
+                   "select_count": 3,
+                   "stock_weight": ["equal_weight"],
+                   "buy": ["base_buy", 0.02],
+                   "sell": ["base_sell","14:54:30"],
+                   "risk": [false]}
+                  }
+}
