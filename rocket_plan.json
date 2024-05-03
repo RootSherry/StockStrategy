@@ -1,14 +1,14 @@
 {
   "account": {
-    "user": "010400006666",
+    "user": "",
     "pwd": ""
   },
-  "hid": "15ceb0a9e6d039ea8bfc3aa1d5506d01",
-  "api_key":"dGzFAzSfU1669788833945TFetZ3LdNK",
+  "hid": "",
+  "api_key":"",
     "robot_api": {
-    "info":{"secret": "56c31174-00b8-4158-a60a-2db23e0a1e4f"},
-    "waring": {"secret": "56c31174-00b8-4158-a60a-2db23e0a1e4f"},
-    "news": {"secret": "56c31174-00b8-4158-a60a-2db23e0a1e4f"}
+    "info":{"secret": ""},
+    "waring": {"secret": ""},
+    "news": {"secret": ""}
     },
   "strategy_list":{
     "非策略选股": {"strategy": "非策略选股",
