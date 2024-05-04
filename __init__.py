@@ -1,1 +1,1 @@
-from .stock import *
+from .stockstrategy import *
