@@ -16,7 +16,7 @@ from joblib import Parallel, delayed
 from retrying import retry
 from tqdm import tqdm
 
-from plugins.stock.common import *
+from plugins.StockStrategy.common import *
 
 
 class BaseDataApi(object):
