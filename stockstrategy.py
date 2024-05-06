@@ -3,11 +3,11 @@
 import plugins
 from bridge.context import ContextType
 from bridge.reply import Reply, ReplyType
-from plugins.stockstrategy.common import *
+from plugins.StockStrategy.common import *
 from common.log import logger
-from plugins.stockstrategy.config import *
+from plugins.StockStrategy.config import *
 from plugins import *
-from plugins.stockstrategy.BaseDataApi import BaseDataApi
+from plugins.StockStrategy.BaseDataApi import BaseDataApi
 
 base_data_api = BaseDataApi(api_key=api_key, hid=hid, all_data_path=all_data_path,
                             strategy_result_path=strategy_result_path)
