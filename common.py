@@ -4,7 +4,7 @@ import logging as log
 import os
 import requests
 
-from plugins.stockstrategy.config import proxies, robot_api, root_path
+from plugins.StockStrategy.config import proxies, robot_api, root_path
 
 # region 发送日志相关
 log_path = root_path + '/data/log/'
